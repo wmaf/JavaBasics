@@ -1,18 +1,21 @@
 package com.careerdevs;
 
 public class Main {
-// 1/3 JavaBasics
+
     public static void main(String[] args) {
-        // write your code here
+    // 1/3
         String firstName = "Bill ";
         String lastName = "Ford";
         String fullName = firstName + lastName;
 
-// 1/3 JavaBasics
+    // 1/3 JavaBasics Out
         System.out.println(fullName);
 
-// 2/3 JavaBasics
+    // 2/3 JavaBasics Out
         System.out.println(createFullName("Gabriel", "Sherman"));
+
+    // 3/3 JavaBasics Out
+        System.out.println(NameGenerator.generateFullName("Jim", "Jones"));
 
     }
 
@@ -21,5 +24,15 @@ public class Main {
         String fullName = First + " " + Last;
         return fullName;
     }
+
+
+}
+// 3/3
+class NameGenerator{
+    public static String generateFullName(String First, String Last) {
+        String theFullNameIs = First + " " + Last;
+        return theFullNameIs;
+    }
 }
 
+//No Go Bonus  :-(
